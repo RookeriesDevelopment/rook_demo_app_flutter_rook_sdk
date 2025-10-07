@@ -15,6 +15,7 @@ import 'package:rook_sdk_demo_app_flutter/features/sdk_health_connect/android_us
 import 'package:rook_sdk_demo_app_flutter/secrets.dart';
 import 'package:rook_sdk_core/rook_sdk_core.dart';
 import 'package:rook_sdk_health_connect/rook_sdk_health_connect.dart';
+import 'package:rook_sdk_samsung_health/rook_sdk_samsung_health.dart';
 
 const String androidConfigurationRoute = '/android/configuration';
 
@@ -170,6 +171,12 @@ class _AndroidConfigurationState extends State<AndroidConfiguration> {
   }
 
   void initialize() {
+    RookSamsung.getUserID().then((user) {
+      logger.info("Found userID: $user");
+    }).catchError((error) {
+      logger.severe("Error with user: $error");
+    });
+
     initializeOutput.clear();
 
     setState(() {

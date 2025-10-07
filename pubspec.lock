@@ -252,26 +252,34 @@ packages:
     dependency: "direct main"
     description:
       name: rook_sdk_apple_health
-      sha256: f49f907b06c5509ea81011aee0d34d610c297afa7740296cbfae418c41df0d8a
+      sha256: b4a1793e9ef3e52ac765f38cf7cb52dcd3e4b6c040cd747e9560358bd2a14c4d
       url: "https://pub.dev"
     source: hosted
-    version: "1.7.0"
+    version: "1.9.1"
   rook_sdk_core:
     dependency: "direct main"
     description:
       name: rook_sdk_core
-      sha256: "3dcc9e91a52fd1c6acd433e40191ac1bfb976ffea630842d5bcf302e0071b5d9"
+      sha256: "046fcfac7a6f6c7ff3871c2eca48c352dea8e7d12bd3dec639f54db9b93e09cb"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.0"
+    version: "1.1.0"
   rook_sdk_health_connect:
     dependency: "direct main"
     description:
       name: rook_sdk_health_connect
-      sha256: ffe0bca38612972d01733e83cb73d40e81eb7ff4cc2683091eb2b8b5bba6f853
+      sha256: be595a1c7be89faa16be98dfcac5f4985fa7943ce4a802260bbf791aaa2e477a
       url: "https://pub.dev"
     source: hosted
-    version: "3.0.0"
+    version: "3.2.1"
+  rook_sdk_samsung_health:
+    dependency: "direct main"
+    description:
+      name: rook_sdk_samsung_health
+      sha256: "963199b506718da5252090c152416001d2ba1c1d254b7155b4f1dfad23787149"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
   shared_preferences:
     dependency: "direct main"
     description:

@@ -10,9 +10,10 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
-  rook_sdk_core: ^1.0.0
-  rook_sdk_apple_health: ^1.7.0
-  rook_sdk_health_connect: ^3.0.0
+  rook_sdk_core: 1.1.0
+  rook_sdk_apple_health: 1.9.1
+  rook_sdk_health_connect: 3.2.1
+  rook_sdk_samsung_health: 1.0.0
   app_settings: ^5.1.1
   receive_intent: ^0.2.5
   logging: ">=1.0.0 <2.0.0"
